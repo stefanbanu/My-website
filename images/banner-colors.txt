@@ -1,0 +1,3 @@
+brackets: #D0D0D0
+background: #101020
+stefanbanu: #00D0D0

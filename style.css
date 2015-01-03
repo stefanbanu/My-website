@@ -55,20 +55,76 @@ header {
 }
 
 .img2 {
-    padding-left: 30px;
+    padding-left: 40px;
     max-width: 85%;
-/*
-    width: 95%; 
-    height: 70%;
-*/
     
 }
-
-.img2:hover
+#pic
 {
-	opacity: 0.8;
+   max-width: 85%;
+   position:relative;
+}
+
+/*Comments*/
+
+.text
+{
+    position:absolute;    
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    left:40px;
+    top:-24px;
+    background-color: #913737;
+    height: 500px;
+    width: 500px;
+    line-height: 500px;
+    text-align: center;
+    opacity: 0;
+    visibility: visible;
+    max-width: 85%;
+}
+
+#picWork
+{
+   max-width: 85%;
+   position:relative;
+}
+
+/*Comments*/
+
+.text2
+{
+    position:absolute;    
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    left:40px;
+    top:-24px;
+    background-color: #913737;
+    height: 571px;
+    width: 1200px;
+    line-height: 500px;
+    text-align: center;
+    opacity: 0;
+    visibility: visible;
+    max-width: 85%;
+}
+.text:hover
+{
+	opacity: 0.9;
+    visibility: visible;
 /*	filter: alpha(opacity=10);*/
 }
+
+.text2:hover
+{
+	opacity: 0.9;
+    visibility: visible;
+/*	filter: alpha(opacity=10);*/
+}
+
+/*Comments*/
 
 /*LINKS*/
 
@@ -76,6 +132,7 @@ a:link {
     text-decoration: none;
     color: #082038;
 }
+
 
 a:visited {
     text-decoration: underline;
@@ -86,6 +143,7 @@ a:hover {
     text-decoration: none;
     color: #a7efef;
 }
+
 
 a:active {
     text-decoration: underline;
